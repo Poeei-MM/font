@@ -86,3 +86,17 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+@font-face {
+	font-family: 'Zawgyi-One' !important;
+	src: url('../assets/fonts/Zawgyi-One.eot');
+	src: url('../assets/fonts/Zawgyi-One.woff') format('woff'), url('../assets/fonts/Zawgyi-One.ttf') format('truetype'), url('../assets/fonts/Zawgyi-One.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+

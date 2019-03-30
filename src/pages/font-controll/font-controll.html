@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+	<button ion-button menuToggle icon-only>
+	  <ion-icon name='menu'></ion-icon>
+    </button>
+    <ion-title>ဖန်တီးလိုသူများ </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-card padding>
+		E-commerce Feature များပါဝင်သော Online Marketing ဖန်တီးလိုသူများ အတွက် အဆင်သင့် အသုံးပြုနိုင်သည်အထိ Development လုပ်ပေးမည်ဖြစ်သည်။ Web Page 5 pages ပါဝင်ပြီး Product အခု 20 အခမဲ့ထည့်သွင်းပေးသွားမည်ဖြစ်သည်။ လိိုုအပ်သော Configuration tools များလည်းတစ်ပါးတည်း တပ်ဆင်ပေးပြီးဖြစ်ပါသည်။
+		<ion-label wrap>အဆင်သင့် အသုံးပြုနိုင်သည်အထိ လုပ်ပေးမည်ဖြစ်သည်။ Web Page 5 pages ပါဝင်ပြီး Product အခု 20 အခမဲ့ထည့်သွင်းပေးသွားမည်ဖြစ်သည်။ လိိုုအပ်သော Configuration tools များလည်းတစ်ပါးတည်း တပ်ဆင်ပေးပြီးဖြစ်ပါသည်။</ion-label>
+		<button ion-button color="primary" (click)="toastCtl()">တပ်ဆင်ပေးပါ</button>
+	</ion-card>
+	
+	<ion-card>
+		<ion-list>
+
+		  <ion-item>
+			<ion-label fixed>အမည်</ion-label>
+			<ion-input type="text" [(ngModel)]="username"></ion-input>
+		  </ion-item>
+
+		  <ion-item>
+			<ion-label fixed>လျှို့ဝှက်နံပါတ်</ion-label>
+			<ion-input type="password" [(ngModel)]="password"></ion-input>
+		  </ion-item>
+		  
+		  <ion-item>
+			<ion-label>လိင်</ion-label>
+			<ion-select [(ngModel)]="gender">
+			  <ion-option value="ကျား">ကျား</ion-option>
+			  <ion-option value="မ">မ</ion-option>
+			</ion-select>
+		  </ion-item>
+		</ion-list>
+		
+		<div padding>
+		  <button ion-button color="dark" full (click)="showAlertZawGyi()">ဝင်ပါ</button>
+		</div>
+	</ion-card>
+	
+		E-commerce Feature များပါဝင်သော Online Marketing ဖန်တီးလိုသူများ အတွက် အဆင်သင့် အသုံးပြုနိုင်သည်အထိ Development လုပ်ပေးမည်ဖြစ်သည်။ Web Page 5 pages ပါဝင်ပြီး Product အခု 20 အခမဲ့ထည့်သွင်းပေးသွားမည်ဖြစ်သည်။ လိိုုအပ်သော Configuration tools များလည်းတစ်ပါးတည်း တပ်ဆင်ပေးပြီးဖြစ်ပါသည်။
+</ion-content>
+
+
